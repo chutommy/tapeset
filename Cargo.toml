@@ -24,7 +24,7 @@ xz2 = { version = "0.1", features = ["static"] }
 zstd = "0.13"
 
 [dependencies.pyo3]
-version = "0.28.2"
+version = "0.29.0"
 features = ["abi3-py39"]
 
 [target.'cfg(unix)'.dependencies]
